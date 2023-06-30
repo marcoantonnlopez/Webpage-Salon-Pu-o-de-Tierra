@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+/** ------------------BODY--------------- */
+
+#tuTierra {
+    display: flex;
+    flex-direction: column;
+    /* background-image: linear-gradient(rgba(0, 0, 255, 0), rgba(255, 255, 255, 0)), url("../imgs/index/balcon.jpg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.398)), url("../imgs/index/fondo.JPG");
+    /* background-clip: border-box; */
+    width: 100%;
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#tuTierra1 {
+    height: 50vh;
+}
+
+#tuTierra2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50vh;
+}
+
+#tuTierra2 h1 {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+#tuTierra2 p {
+    font-size: 25px;
+}
+
+#tuTierra2 a {
+    font-size: 25px;
+}
+
+#tuTierra3 {
+    background-image: linear-gradient(rgba(0, 0, 255, 0), rgb(255, 255, 255));
+    height: 50vh;
+}
+
+#todoEnUno {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+#todoEnUno h1 {
+    font-weight: bold;
+    font-size: 55px;
+    margin: 30px 0 30px 0;
+}
+
+#miniCards {
+    margin: 0 10%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: top;
+    font-weight: 600;
+    font-size: 25px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.miniCard {
+    width: 180px;
+    /* height: 200px; */
+    text-align: center;
+    margin-bottom: 40px;
+    margin: 20px 0 20px 0;
+    transition: 0.3s;
+}
+
+.miniCard:hover {
+    transform: scale(1.1);
+}
+
+.miniCard img {
+    height: 250px;
+    width: 160px;
+    border-radius: 10px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#tenemosTambien {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#tenemosTambien h1 {
+    font-weight: bold;
+    font-size: 55px;
+    margin: 50px 0 30px 0;
+}
+
+#bigCards {
+    margin: 10px 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 25px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.bigCard {
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.bigCard:hover {
+    transform: scale(1.1);
+}
+
+.ludoteca {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/index/ludoteca.jpeg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.futbolito {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/index/fut.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.balcon {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/index/balcon.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nuestraTierra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nuestraTierra h1 {
+    font-weight: bold;
+    font-size: 55px;
+    margin: 50px 0 30px 0;
+}
+
+#nuestraTierra iframe {
+    height: 300px;
+    border-radius: 10px;
+}
+
+.ubi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin: 20px 0 10px 0;
+}
+
+.ubi p {
+    font-size: 25px;
+    color: #8C8C8C;
+    font-weight: bold;
+}
+
+.ubi img {
+    height: 35px;
+}
+
+#nuestraTierra h6 {
+    font-size: 35px;
+    text-align: center;
+    /* color: #8C8C8C; */
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+iframe {
+    width: 80%;
+}
+
+#perfectoParaTi {
+    display: flex;
+    flex-direction: column;
+}
+
+#perfectoParaTi .large_btn {
+    margin: 0 28% 60px 28%;
+}
+
+#perfectoParaTi h1 {
+    background-color: #1D2323;
+    width: 100%;
+    height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#eventos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 0 60px 0;
+    flex-wrap: wrap;
+}
+
+.evento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.evento img {
+    height: 90px;
+}
+
+.evento p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#puñoDeRecuerdos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.398)), url("../imgs/index/karaoke.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+#puñoDeRecuerdos h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#puñoDeRecuerdos a {
+    font-size: 25px;
+}
+
+#agenda {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#agenda h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+
+/** ------------------RESPONSIVE--------------- */
+
+@media screen and (max-width: 1024px) {
+    #tuTierra2 h1 {
+        font-weight: bold;
+        font-size: 50px;
+    }
+    #tuTierra2 p {
+        font-size: 20px;
+    }
+    #todoEnUno h1 {
+        font-size: 50px;
+    }
+    #tenemosTambien h1 {
+        font-size: 50px;
+    }
+    #nuestraTierra h1 {
+        font-size: 50px;
+    }
+    .ubi p {
+        font-size: 20px;
+    }
+    #nuestraTierra h6 {
+        font-size: 25px;
+    }
+    #perfectoParaTi h1 {
+        font-size: 50px;
+    }
+    .evento p {
+        font-size: 15px;
+    }
+    #puñoDeRecuerdos h1 {
+        font-size: 50px;
+    }
+    #puñoDeRecuerdos a {
+        font-size: 20px;
+    }
+    #agenda h1 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #perfectoParaTi .large_btn {
+        margin: 0 8% 60px 8%;
+    }
+    .evento img {
+        height: 40px;
+    }
+    #tuTierra2 h1 {
+        font-weight: bold;
+        font-size: 40px;
+    }
+    #tuTierra2 p {
+        font-size: 15px;
+    }
+    #todoEnUno h1 {
+        font-size: 35px;
+    }
+    #tenemosTambien h1 {
+        font-size: 35px;
+    }
+    #nuestraTierra h1 {
+        font-size: 35px;
+    }
+    .ubi p {
+        font-size: 15px;
+    }
+    #nuestraTierra h6 {
+        font-size: 18px;
+    }
+    #perfectoParaTi h1 {
+        font-size: 40px;
+    }
+    .evento p {
+        font-size: 15px;
+    }
+    #puñoDeRecuerdos h1 {
+        font-size: 40px;
+    }
+    #puñoDeRecuerdos a {
+        font-size: 15px;
+    }
+    #agenda h1 {
+        font-size: 38px;
+    }
+}

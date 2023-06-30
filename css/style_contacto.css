@@ -1,0 +1,70 @@
+/** ------------------BODY--------------- */
+
+#contactanos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactanos h1 {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#contactanos h4 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #717171;
+    margin-bottom: 20px;
+}
+
+#contactanos video {
+    height: 80vh;
+    margin-bottom: 80px;
+}
+
+#contactanos p {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#contactanos div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0 100px 0;
+    width: 60vw;
+}
+
+#contactanos div img {
+    height: 150px;
+    transition: 1s;
+}
+
+#contactanos div img:hover {
+    transform: scale(1.1);
+}
+
+
+/** ------------------RESPONSIVE--------------- */
+
+@media screen and (max-width: 500px) {
+    #contactanos h1 {
+        font-size: 40px;
+    }
+    #contactanos h4 {
+        font-size: 25px;
+    }
+    #contactanos p {
+        font-size: 30px;
+    }
+    #contactanos div img {
+        height: 100px;
+    }
+    #contactanos video {
+        height: 70vh;
+    }
+}

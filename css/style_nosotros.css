@@ -1,0 +1,153 @@
+/** ------------------BODY--------------- */
+
+#porQue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.398)), url("../imgs/Nosotros/fondo.jpg");
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#porQue h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#historia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1D2323;
+}
+
+#historia h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 50px 0 50px 0;
+}
+
+#histImg {
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#histImg img {
+    height: 60vh;
+    margin: 0 10% 70px 10%;
+}
+
+#histFamiliar {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: justify;
+    margin: 0 10% 0 0;
+}
+
+#unSalon {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.398)), url("../imgs/Nosotros/noche.jpg");
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#unSalon h1 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#unSalon p {
+    margin: 0 20% 0 20%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#seParte {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#seParte h1 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+
+/** ------------------RESPONSIVE--------------- */
+
+@media screen and (max-width: 1024px) {
+    #porQue h1 {
+        font-size: 50px;
+    }
+    #historia h1 {
+        font-size: 40px;
+    }
+    #unSalon h1 {
+        font-size: 50px;
+    }
+    #unSalon p {
+        font-size: 20px;
+    }
+    #seParte h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #histImg {
+        flex-direction: column;
+        text-align: center;
+    }
+    #histFamiliar {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    #porQue h1 {
+        font-size: 40px;
+    }
+    #historia h1 {
+        font-size: 30px;
+    }
+    #unSalon h1 {
+        font-size: 40px;
+    }
+    #unSalon p {
+        font-size: 15px;
+    }
+    #seParte h1 {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,73 @@
+/** ------------------BODY--------------- */
+
+#agenda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#agenda h1 {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#agenda h4 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #717171;
+    margin-bottom: 50px;
+}
+
+#opciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.opcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30vw;
+}
+
+.opcion img {
+    height: 100px;
+}
+
+
+/** ------------------RESPONSIVE--------------- */
+
+@media screen and (max-width: 570px) {
+    #agenda h1 {
+        font-size: 50px;
+    }
+    #agenda h4 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    #agenda h1 {
+        font-size: 40px;
+    }
+    #agenda h4 {
+        font-size: 18px;
+        text-align: center;
+        width: 90%;
+    }
+    #opciones {
+        flex-direction: column;
+    }
+    .opcion {
+        width: 70vw;
+        margin-bottom: 20px;
+    }
+}

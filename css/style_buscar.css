@@ -1,0 +1,125 @@
+/** ------------------BODY--------------- */
+
+main {
+    margin: 0 10% 50px 10%;
+    /* text-align: st; */
+}
+
+#general {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+#titulo {
+    width: 45%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo h1 {
+    text-align: start;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#titulo span {
+    color: #C38937;
+}
+
+#titulo h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #717171;
+    /* margin-bottom: 50px; */
+}
+
+#datos {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+#datos button {
+    border: none;
+    /* background-color: white; */
+    width: 100%;
+}
+
+#datos h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#datos input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.btnBuscar {
+    background-color: #C38937;
+    color: white;
+}
+
+
+/** ------------------RESPONSIVE--------------- */
+
+@media screen and (max-width: 850px) {
+    #general {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #titulo {
+        text-align: center;
+        width: 85%;
+    }
+    #titulo h1 {
+        text-align: center;
+    }
+    #datos {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #general {
+        flex-direction: column;
+        justify-content: center;
+        height: 110vh;
+    }
+    #titulo {
+        text-align: center;
+        width: 85%;
+    }
+    #titulo h1 {
+        text-align: center;
+    }
+    #datos {
+        width: 85%;
+    }
+}
+
+
+/* @media screen and (max-width: 790px) {
+    #general {
+        flex-direction: column;
+    }
+    #titulo {
+        text-align: center;
+    }
+    #titulo h1 {
+        text-align: center;
+    }
+} */

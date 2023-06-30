@@ -1,0 +1,293 @@
+/** ------------------BODY--------------- */
+
+.btn {
+    margin-top: 20px;
+}
+
+main {
+    margin: 0 15% 50px 15%;
+    text-align: center;
+}
+
+#enLinea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#enLinea h1 {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#enLinea h4 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #717171;
+    /* margin-bottom: 50px; */
+}
+
+#linea {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #717171;
+    /* margin-bottom: 60px;
+    margin-top: 30px; */
+}
+
+#linea:hover {
+    color: #3d3d3d;
+}
+
+hr {
+    margin: 30px 0 30px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.pasos h1 {
+    font-weight: bold;
+}
+
+.pasos span {
+    color: #C38937;
+}
+
+.pasos h6 {
+    font-size: 25px;
+    color: #717171;
+}
+
+.calendario img {
+    width: 100%;
+}
+
+#paso2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#horario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+#horario div {
+    margin: 20px;
+}
+
+#hrTermino {
+    font-weight: 500;
+    color: #1D2323;
+    font-size: 18px;
+}
+
+#horario div p {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#horaSelect {
+    background-color: #D9D9D9;
+    border: none;
+    color: #1D2323;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    /* background-position: right center; */
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botones div {
+    width: 22vw;
+}
+
+.botones p {
+    margin-top: 30px;
+}
+
+#paso3 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#infoPaso3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#infoPaso3 div {
+    margin: 20px;
+}
+
+#P3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#horasExtra {
+    background-color: #D9D9D9;
+    border: none;
+    color: #1D2323;
+    padding: 10px 0;
+    width: 130px;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    /* background-position: right center; */
+}
+
+.costoP3 {
+    font-weight: 400;
+    color: #717171;
+}
+
+#paso3 h6 {
+    font-weight: bold;
+}
+
+#paso4 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#paso5 {
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#adicionales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.adicional img {
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.adicional img {
+    width: 15vw;
+    height: 48vh;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0.3s;
+}
+
+.adicional img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    /* box-shadow: 0px 0px 50px rgba(253, 173, 34, 0.805); */
+    ;
+}
+
+
+/* #itemNinguno {
+    display: none;
+} */
+
+#itemLudoteca {
+    display: none;
+}
+
+#itemFut {
+    display: none;
+}
+
+#itemBalcon {
+    display: none;
+}
+
+.antes {
+    /* color: #C38937; */
+    color: #c33737;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/** ------------------RESPONSIVE--------------- */
+
+@media screen and (max-width: 1050px) {
+    main {
+        margin: 0 10% 50px 10%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    main {
+        margin: 0 8% 50px 8%;
+    }
+    .adicional img {
+        width: 23vw;
+        margin: 20px 10px;
+    }
+    #enLinea h1 {
+        font-size: 50px;
+    }
+    #enLinea h4 {
+        font-size: 34px;
+    }
+    .pasos h6 {
+        font-size: 19px;
+    }
+    #horario div p {
+        font-size: 20px;
+    }
+    .botones p {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    main {
+        margin: 0 5% 50px 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #adicionales {
+        flex-direction: column;
+    }
+    .adicional img {
+        width: 75vw;
+        height: 15vh;
+    }
+}

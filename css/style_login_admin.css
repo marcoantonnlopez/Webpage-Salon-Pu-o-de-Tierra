@@ -1,0 +1,57 @@
+#all {
+    /* margin: 0 15% 50px 15%; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.398)), url("../imgs/Nosotros/fondo.jpg");
+    width: 100%;
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#formDiv {
+    width: 60%;
+    height: 70vh;
+    border-radius: 35px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 80%;
+}
+
+form input {
+    margin-bottom: 20px;
+    /* width: 300px; */
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+button {
+    margin-top: 20px;
+}
+
+
+/* -------------- */
+
+@media screen and (max-width: 650px) {
+    #formDiv {
+        width: 80%;
+    }
+}

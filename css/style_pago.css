@@ -1,0 +1,137 @@
+    /** ------------------BODY--------------- */
+    
+    main {
+        margin: 0 15% 50px 15%;
+        text-align: center;
+    }
+    
+    #paso7 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #paso7 h1 {
+        margin-top: 100px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    #paso7 h4 {
+        font-weight: 600;
+        font-size: 20px;
+        color: #717171;
+        /* margin-bottom: 50px; */
+    }
+    
+    #paso7 span {
+        color: #C38937;
+    }
+    
+    hr {
+        margin: 30px 0 30px 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    #infoPago {
+        border: solid #9e9e9e;
+        border-radius: 50px;
+        margin: 0 0 50px 0;
+        padding: 50px 0;
+    }
+    
+    #infoPago form {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .anchoInputTarjeta {
+        border-radius: 15px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    #tarjDatos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+    
+    #tarjDatos input {
+        width: 45%;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        /* width: 60%; */
+    }
+    
+    input {
+        padding: 10px;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+    
+    .aceptarContrato {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        width: 80%;
+    }
+    
+    .aceptarContrato input {
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+    
+    #btns {
+        margin-top: 50px;
+    }
+    
+    .btnGris {
+        background-color: #9e9e9e;
+        margin-right: 125px;
+        margin-top: 15px;
+    }
+    /** ------------------RESPONSIVE--------------- */
+    
+    @media screen and (max-width: 1050px) {
+        main {
+            margin: 0 10% 50px 10%;
+        }
+    }
+    
+    @media screen and (max-width: 850px) {
+        main {
+            margin: 0 8% 50px 8%;
+        }
+    }
+    
+    @media screen and (max-width: 650px) {
+        main {
+            margin: 0 5% 50px 5%;
+        }
+        #paso7 h1 {
+            font-size: 30px;
+        }
+        #paso7 h4 {
+            font-size: 15px;
+        }
+    }
+    
+    @media screen and (max-width: 535px) {
+        .btnGris {
+            margin-right: 0px;
+        }
+        #btns {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
